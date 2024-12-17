@@ -5,7 +5,7 @@ import { hidePopup, showPopup } from "@/redux/reducers/commonReducer";
 import { useDispatch, useSelector } from "react-redux";
 import BindFeaturesList from "../BindFeaturesList";
 import { FaArrowLeft } from "react-icons/fa";
-import ApiKeyPopup from "./ApiKeyPopup";
+
 import { ModelCategory } from "@/features/chat/constants";
 import { setLatestModel } from "@/redux/reducers/botReducer";
 import { useClientMediaQuery } from "@/features/hooks";
@@ -51,20 +51,20 @@ const WithoutKeyContinuePopup = () => {
   const isMobile = useClientMediaQuery("(max-width: 600px)");
 
   const handleAddKeyClick = () => {
-    dispatch(
-      showPopup({
-        title: "",
-        description: <ApiKeyPopup />,
-        btnArray: [],
-        classAdditions: {
-          popupContainer: `
-         w-[720px] 
-        `,
-          popup:
-            " !w-full !border dark:border-[#ffffff1e] dark:bg-[#26282c] p-7",
-        },
-      })
-    );
+    // dispatch(
+    //   showPopup({
+    //     title: "",
+    //     description: <ApiKeyPopup />,
+    //     btnArray: [],
+    //     classAdditions: {
+    //       popupContainer: `
+    //      w-[720px] 
+    //     `,
+    //       popup:
+    //         " !w-full !border dark:border-[#ffffff1e] dark:bg-[#26282c] p-7",
+    //     },
+    //   })
+    // );
   };
 
   return (

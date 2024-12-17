@@ -16,7 +16,7 @@ import InputModelPopup from "./InputModelPopup";
 import { FaRegFolderOpen } from "react-icons/fa";
 import { useClientMediaQuery } from "@/features/hooks";
 import ModelCategoryContainer from "@/components/common/chat/ModelCategoryContainer";
-import ApiKeyPopup from "@/components/common/apiKey/ApiKeyPopup";
+
 import Icon from "@/components/common/Icon";
 import SumoUsersLimitPopup from "@/features/sumo-app/components/SumoUsersLimitPopup";
 
@@ -160,20 +160,20 @@ export const handleAdvancedModelClick = (
       })
     );
   } else {
-    dispatch(
-      showPopup({
-        title: "",
-        description: <ApiKeyPopup />,
-        btnArray: [],
-        classAdditions: {
-          popupContainer: `
-         w-[720px] 
-        `,
-          popup:
-            " !w-full !border dark:border-[#ffffff1e] border-[#E4E5EA] dark:bg-[#26282c] p-7",
-        },
-      })
-    );
+    // dispatch(
+    //   showPopup({
+    //     title: "",
+    //     description: <ApiKeyPopup />,
+    //     btnArray: [],
+    //     classAdditions: {
+    //       popupContainer: `
+    //      w-[720px] 
+    //     `,
+    //       popup:
+    //         " !w-full !border dark:border-[#ffffff1e] border-[#E4E5EA] dark:bg-[#26282c] p-7",
+    //     },
+    //   })
+    // );
   }
 };
 
