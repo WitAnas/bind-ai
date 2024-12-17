@@ -41,7 +41,7 @@ import {
   handleAdvancedModelClick,
   handleConnectCarbon,
 } from "@/features/chat/components/MessageContainer";
-import ApiKeyPopup from "@/components/common/apiKey/ApiKeyPopup";
+
 import {
   setGptAgent,
   setIsCreatingAgent,
@@ -443,20 +443,20 @@ export default function HomeLayout({ children }) {
         if (currentUser?.uid) {
           removeQueryParam("action", router, params, pathname);
         }
-        dispatch(
-          showPopup({
-            title: "",
-            description: <ApiKeyPopup />,
-            btnArray: [],
-            classAdditions: {
-              popupContainer: `
-             w-[720px] 
-            `,
-              popup:
-                " !w-full !border dark:border-[#ffffff1e] border-[#E4E5EA] dark:bg-[#26282c] p-7",
-            },
-          })
-        );
+        // dispatch(
+        //   showPopup({
+        //     title: "",
+        //     description: <ApiKeyPopup />,
+        //     btnArray: [],
+        //     classAdditions: {
+        //       popupContainer: `
+        //      w-[720px] 
+        //     `,
+        //       popup:
+        //         " !w-full !border dark:border-[#ffffff1e] border-[#E4E5EA] dark:bg-[#26282c] p-7",
+        //     },
+        //   })
+        // );
       }
     }
   }, [loading, userSubscription.loading]);
