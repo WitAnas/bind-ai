@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: ${process.env.NEXT_PUBLIC_BASE_URL}/api/sitemap
+Disallow: /partner-appsumo-register
+Disallow: /partner-appsumo-login

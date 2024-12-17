@@ -1,0 +1,20 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip209_2010">
+			<rect id="play_arrow_24dp 1" width="20.000000" height="20.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip209_2006">
+			<rect id="rocket_launch_24dp 1" width="20.000000" height="20.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="rocket_launch_24dp 1" width="20.000000" height="20.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip209_2006)">
+		<rect id="play_arrow_24dp 1" width="20.000000" height="20.000000" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip209_2010)">
+			<path id="Vector" d="M5.66 4.66L5.66 15.33C5.66 16.14 6.56 16.64 7.25 16.2L15.63 10.86C16.27 10.46 16.27 9.53 15.63 9.12L7.25 3.79C6.56 3.35 5.66 3.85 5.66 4.66Z" fill="#745FFB" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>

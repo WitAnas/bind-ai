@@ -1,0 +1,67 @@
+[
+  {
+    "url": "/partner-appsumo-login",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/partner-appsumo-register",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/chat/bind-ai",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/chat/web-search",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/chat/code-generation",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/chat/661cacc79657814effd8db6c",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/chat/664aaf841bccad5bb77c96ab",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/chat/660f2def795718a92af22fc1",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/chat",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/home",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/members",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/",
+    "changefreq": "daily",
+    "priority": 0.8
+  },
+  {
+    "url": "/onboarding",
+    "changefreq": "daily",
+    "priority": 0.8
+  }
+]
